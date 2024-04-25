@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: grey;
+    font-family: Montserrat;
+    
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(34, 32, 32);;
+    height: 30vh;
+    width: 35vh;
+    margin-left: 41%;
+    margin-top: 13%;
+    border-radius: 15px;
+    box-shadow: 6px 8px 38px -12px rgba(66, 68, 90, 1);
+}
+
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+    margin-top: 2px;
+}
+
+.nameinp{
+    margin-bottom: 15px;
+    width: 150px;
+    color: white;
+    box-shadow: 6px 8px 38px -12px rgba(66, 68, 90, 1);
+}
+
+.passwordinp{
+    margin-bottom: 17px;
+    width: 150px;
+    color: white;
+    box-shadow: 6px 8px 38px -12px rgba(66, 68, 90, 1);
+}
+
+.submitinp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 6px 8px 38px -12px rgba(66, 68, 90, 1);
+}
+
+
+
+.baner{
+    background-color: rgb(34, 32, 32);
+    height: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 4px 4px 6px rgba(66, 68, 90, 1);
+}
+
+#zaloguj{
+    background-color: rgb(112, 106, 106);
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: Montserrat;
+}
